@@ -5,14 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "node app.js"
+    "start:dev": "node app.js",
+    "build": "build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "amazon-connect-streams": "^2.13.1",
-    "express": "^4.18.2",
-    "serverless-express": "^2.0.12"
+    "express": "^4.18.2"
   }
 }
